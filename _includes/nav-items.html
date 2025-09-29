@@ -3,7 +3,7 @@
   {%- assign hyperpage = site.pages | where: "path", path | first -%}
   {%- if hyperpage.title %}
   <!-- <a class="nav-item" href="{{ hyperpage.url | relative_url }}">{{ hyperpage.title | escape }}</a> -->
-  <a class="page-link" href="https://github.com/vox-serve/vox-serve">GitHub</a>
   {%- endif -%}
   {%- endfor %}
+  <a class="page-link" href="https://github.com/vox-serve/vox-serve">GitHub</a>
 </div>
